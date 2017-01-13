@@ -79,12 +79,17 @@
     -webkit-border-radius: 5px;
     
     border: 1px solid black;
-  } 
+    } 
     
     /*Gradients*/
     background: -moz-linear-gradient(top, #666,#333);
+    background: -webkit-gradient(linear, left top, left bottom, from(#666),to(#333));
     
-    
+    #nav ul li a:hover {
+      background:#333;
+       background: -moz-linear-gradient(top, #000,#666);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000),to(#666));
+    }
   </style>
   
   <body>
@@ -101,6 +106,8 @@
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
+          <div id="line"></div>
          </div>
+    
    </body>
 </html>
