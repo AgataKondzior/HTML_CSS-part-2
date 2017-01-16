@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equive="Content-Type" content="text/html; charset=utf-8"/>
+    <title>My Resume</title>
+      <link href="my-website.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <style>
+    body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      font-family: "Verdana", "Geneva", sans-serif;
+      background-color: #D9F0E0;
+    }
+  
+    #wrapper {
+      width: 700px;
+      margin: 20px auto;
+    }
+    
+    #header {
+      width: 700px;
+      background: #A6DBBA;
+      text-align: center;
+    }
+    
+    #header img {
+      padding-top: 0;
+      padding-bottom: 0;  
+  }
+    
+    #line {
+      width: 700px;
+      background: #A6DBBA;
+      height: 1px;
+    }
+    
+    #links {
+      width:700px;
+      background: #666;
+    }
+    
+    #nav {
+      width: 384px;
+      background: #666;
+      height: 36px;
+      margin: 0 auto; 
+    }
+  
+    #nav ul {
+      list-style-type: none;  
+    } 
+    
+    #nav ul li {
+      float: left;  
+   }
+    
+    #nav ul li a {
+      display: block;
+      height: 20px;
+      line-height: 20px;
+      background: #000;
+      width: 80px;
+      font-size: 0.8em;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      margin: 7px;
+         /*border radius*/
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+    
+      border: 1px solid #000;
+     
+       /*Gradients*/
+      background:-moz-linear-gradient(top, #BCCCE2,#D1CCDB);
+      background:-webkit-gradient(linear, left top, left bottom, from(#BCCCE2),to(#D1CCDB));
+     }
+    
+      #nav ul li a:hover {
+       background: #333;
+       background: -moz-linear-gradient(top, #000,#666);
+       background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+      }
+    
+      #nav ul li a.current, #nav ul li a.current:hover {
+        background: #f5f5f5;
+        background:-moz-linear-gradient(top, #000,#f5f5f5);
+        background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#f5f5f5));
+        color: #f63;
+        cursor: default;
+      }
+    
+      #about {
+        width: 700px;
+        background: #333;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    
+      #content {
+        width: 430px;
+        margin: 0 auto;
+        background: #FFD1D1;
+        border: 1px solid #000;
+      
+          /*Gradients*/
+        background:-moz-linear-gradient(top, #BCCCE2, #D1CCDB, #F7CCCF);
+        background:-webkit-gradient(linear, left top, left bottom, from(#BCCCE2), to(#F7CCCF), color-stop(0.5, #D1CCDB));
+      
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+      
+           /*Shaddows*/
+        box-shadow: 1px 1px 4px #000;
+       -moz-box-shadow: 1px 1px 4px #000;
+       -webkit-box-shadow: 1px 1px 4px #000;      
+      }
+    
+      #content img {
+        float: left;
+        border: 1px solid #000;
+        background: #333;
+        padding: 16px;
+        margin: 0.7em;
+      
+        /*Gradients*/
+        background:-moz-linear-gradient(top, #000, #333);
+        background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+      
+        /*Border Radius*/
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+      }
+    
+      #content h5 {
+        color: #fff;
+        padding-top: 0.8em;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;    
+      }
+    
+      #content p {
+        font-size:0.7em;
+        color:#fff;
+        padding: 0.7em;
+        line-height: 1.4em;  
+      }
+    
+      #footer {
+        background: #A6DBBA;
+        height: 10px;
+        width: 700px;
+        border-bottom: 1px solid #333; 
+      }
+    
+  </style>
 
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img src="https://t3.ftcdn.net/jpg/00/97/41/10/240_F_97411096_hJvihVGG0Ig3eYg7CJ40ZrG6QSqalPZJ.jpg" width="700" height="200"/>
+      </div>
+      <div id="line"></div>
+      <div id="links">
+      <div id="nav">
+        <ul>
+          <li><a href="index.html" class="current">O mnie</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="hobby.html">Hobby</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+      </div>
+          <div id="line"></div>
+          <div id="about">
+            <div id="content"><img src="https://github.com/AgataKondzior/HTML_CSS-part-2/blob/master/cv_mini%202.jpg?raw=true" width="90" height="123"/>
+              <h5>O mnie</h5>
+              <p>Cześć! Nazywam się Agata Kondzior i podjęłam wyzwanie z Coders Trust - zaprogramuj swoją przyszłość. Ta strona jest moim drugim projektem w ramach szkolenia.
+              Lorem ipsum dolor sit amet, in eam aperiam inimicus, ad vel iuvaret conclusionemque. Mel ei alienum salutandi, ius antiopam dissentias at. Omnis graecis praesent eum no. 
+                Commodo recteque definiebas id vel, dico quodsi dolorum mel at. His choro aliquando cu, pro sapientem disputando ea, id his mazim dignissim consequat. am graeco civibus in, 
+                per ea erat latine. Qui nisl sanctus in, vero audire quo id, quo aperiri consetetur quaerendum ne.</p>
+            </div>
+       </div>
+      <div id="footer"></div>
+    </div>
+   </body>
+</html>
