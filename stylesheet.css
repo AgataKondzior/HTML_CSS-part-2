@@ -156,6 +156,25 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 
 
 /*Resume Hobby Contact elements*/
+#content2 {
+        width: 430px;
+        margin: 0 auto;
+        background: #FFD1D1;
+        border: 1px solid #000;
+      
+          /*Gradients*/
+        background:-moz-linear-gradient(top, #FAF5FA, #E0C2E0, #AD5CAD);
+        background:-webkit-gradient(linear, left top, left bottom, from(#FAF5FA), to(#AD5CAD), color-stop(0.5, #E0C2E0));
+      
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+      
+           /*Shaddows*/
+        box-shadow: 1px 1px 4px #000;
+       -moz-box-shadow: 1px 1px 4px #000;
+       -webkit-box-shadow: 1px 1px 4px #000;      
+      }
 #content2 img {
         border: 1px solid #000;
         background: #333;
