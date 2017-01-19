@@ -92,6 +92,10 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
         background: linear-gradient(top, #FAF5FA, #E0C2E0, #AD5CAD);
         border-radius: 15px;
         box-shadow: 1px 1px 4px #000;
+            
+            /*Gradients*/
+        background:-moz-linear-gradient(top, #000, #333);
+        background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
       }
     
       #content img {
@@ -138,7 +142,11 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
         background: linear-gradient(top, #FAF5FA, #E0C2E0, #AD5CAD);
         border-radius: 15px;
         box-shadow: 1px 1px 4px #000;
-      }
+ 
+        /*Gradients*/
+        background:-moz-linear-gradient(top, #000, #333);
+        background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+}
 
       #content2 img {
         border: 1px solid #000;
