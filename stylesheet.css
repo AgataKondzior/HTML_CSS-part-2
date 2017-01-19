@@ -142,10 +142,9 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
         background: linear-gradient(top, #FAF5FA, #E0C2E0, #AD5CAD);
         border-radius: 15px;
         box-shadow: 1px 1px 4px #000;
- 
-        /*Gradients*/
-        background:-moz-linear-gradient(top, #000, #333);
-        background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+             /*Gradients*/
+        background:-moz-linear-gradient(top, #FAF5FA, #E0C2E0, #AD5CAD);
+        background:-webkit-gradient(linear, left top, left bottom, from(#FAF5FA), to(#AD5CAD), color-stop(0.5, #E0C2E0));
 }
 
       #content2 img {
@@ -155,5 +154,9 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
         margin: 0.7em;
         background: linear-gradient(top, #000, #333);
         border-radius: 15px;
+            /*Gradients*/
+        background:-moz-linear-gradient(top, #000, #333);
+        background:-webkit-gradient(linear, left top, left bottom, from(#000), to(#333));
+}
         
  }
